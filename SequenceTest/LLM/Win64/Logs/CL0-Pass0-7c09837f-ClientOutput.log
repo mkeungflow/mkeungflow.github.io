@@ -1,0 +1,4 @@
+------ Gauntlet Test ------
+Command Line:  -logcmds="LogHttp Verbose, LogAutomatedPerfTest Verbose"  -keepscreenawake  -deterministic  -AutomatedPerfTest.TestID=APT  -llm  -llmcsv  -AutomatedPerfTest.DoCSVProfiler  -csvGpuStats  -csvMetadata="testname=FlowjoDojo,gauntletTestType=AutomatedPerfTest,gauntletSubTest=LLM,testBuildIsPreflight=0,testBuildVersion=Unknown-CL-0-FlowjoDojo,testconfigname="  -AutomatedPerfTest.SequencePerfTest.MapSequenceName=TestSanJose  -gauntlet=AutomatedSequencePerfTest  -ResX=3840  -ResY=2160  -windowed  -log  -unattended  -nosplash  -stdout  -FullStdOutLogOutput  -gauntlet.heartbeatperiod=30  -multihome=172.29.160.1  -multihomehttp=172.29.160.1  -nomcp  -notimeouts  -noepicportal  -userdir="F:\UnrealEngine\GauntletTemp\DeviceCache\Win64\LocalDevice0\UserDir" -abslog="F:\UnrealEngine\GauntletTemp\DeviceCache\Win64\LocalDevice0\UserDir\Saved\Logs\FlowjoDojo.log"
+---------------------------
+Process exited before log file created

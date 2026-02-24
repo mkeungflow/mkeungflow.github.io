@@ -1,0 +1,66 @@
+<html>
+<head><title>Perf Summary: HistoricReport_7Days</title>
+<script>
+SummaryTableIsTransposed=false;
+var originalStyleElement = null; 
+document.addEventListener('DOMContentLoaded', function(event) { regenerateStickyColumnCss(); }) 
+window.addEventListener('resize', function(event) { regenerateStickyColumnCss(); }) 
+
+function regenerateStickyColumnCss() { 
+  var styleElement=document.getElementById('pageStyle'); 
+  var table=document.getElementById('mainTable'); 
+  if ( table.rows.length < 2 ) 
+	return; 
+  if (originalStyleElement == null) 
+    originalStyleElement = styleElement.textContent; 
+  else 
+    styleElement.textContent = originalStyleElement  
+
+  var numStickyCols=1; 
+  var xOffset=0; 
+  for (var i=0;i<numStickyCols;i++) 
+  { 
+	 var rBorderParam=(i==numStickyCols-1) ? 'border-right: 2px solid black;':''; 
+	 styleElement.textContent+='tr.lastHeaderRow th:nth-child('+(i+1)+') {  z-index: 8;  border-top: 2px solid black;  font-size: 11px; left:'+xOffset+'px;'+rBorderParam+'}'; 
+	 styleElement.textContent+='td:nth-child('+(i+1)+') {  position: -webkit-sticky;  position: sticky; z-index: 7; left:'+xOffset+'px; '+rBorderParam+'}'; 
+	 xOffset+=table.rows[1].cells[i].offsetWidth; 
+  } 
+} 
+
+</script>
+<style type='text/css' id='pageStyle'>
+p {  font-family: 'Verdana', Times, serif; font-size: 12px }
+h3 {  font-family: 'Verdana', Times, serif; font-size: 14px }
+h2 {  font-family: 'Verdana', Times, serif; font-size: 16px }
+h1 {  font-family: 'Verdana', Times, serif; font-size: 20px }
+table {table-layout: fixed;} 
+table, th, td { border: 0px solid black; border-spacing: 0; border-collapse: separate; padding: 2px 4px 2px 4px; vertical-align: center; font-family: 'Verdana', Times, serif; font-size: 10px;} 
+td {  border-right: 1px solid black;  max-width: 450;} 
+td:first-child {  padding-right:10px; padding-left:5px;  padding-top:0px;padding-bottom:0px;} 
+td:not(:first-child) {  text-align: left;} 
+tr:first-element { border-top: 2px; border-bottom: 2px } 
+th {  width: auto;  max-width: 220px;  min-width: 35px;  position: -webkit-sticky;  position: sticky;  border-right: 1px solid black;  border-top: 2px solid black;  z-index: 5;  background-color: #ffffff;  top:0;  font-size: 9px;  word-wrap: break-word;  overflow: hidden;  height: 60;} 
+span.greyText {  color: #808080;  display: inline-block;} 
+span.blackText {  color: #000000;  display: inline-block;} 
+tr:first-child th:first-child { z-index: 100;  border-right: 2px solid black; border-top: 2px solid black; font-size: 11px; top:0; left: 0px; } 
+th:first-child, td:first-child { border-left: 2px solid black; white-space: nowrap; max-width:800px;} 
+td { max-height: 40px; height:40px } 
+tr:last-child td{border-bottom: 2px solid black;} 
+tr:nth-child(odd) {background-color: #ffffff;} 
+tr:nth-child(even) {background-color: #eaeaea;} 
+tr:first-child {background-color: #ffffff;} 
+tr.lastHeaderRow th { border-bottom: 2px solid black; } 
+tr.sectionStartLevel0 td { border-top: 2px solid black; } 
+tr.sectionStartLevel1 td { border-top: 1px solid black; } 
+tr.sectionStartLevel2 td { border-top: 1px dashed black; } 
+
+</style>
+</head><body>
+<table id='mainTable'>
+<tr id="headerRow_0"  class='lastHeaderRow'><th id="col_0" title='buildversion (CsvMetadata)'>Build Version</th><th id="col_1" title='deviceprofile (CsvMetadata)'>DeviceProfile</th><th id="col_2" title='Report (ToolMetadata)'>Report</th><th id="col_3" title='Csv File (ToolMetadata)'>Csv File</th><th id="col_4" title='Total (SummaryTableMetric)'>Total Avg</th><th id="col_5" title='TrackedTotal (SummaryTableMetric)'>TrackedTotal Avg</th><th id="col_6" title='Untracked (SummaryTableMetric)'>Untracked Avg</th><th id="col_7" title='Textures (SummaryTableMetric)'>Textures Avg</th><th id="col_8" title='Audio (SummaryTableMetric)'>Audio Avg</th><th id="col_9" title='Meshes (SummaryTableMetric)'>Meshes Avg</th><th id="col_10" title='RenderTargets (SummaryTableMetric)'>RenderTargets Avg</th><th id="col_11" title='UObject (SummaryTableMetric)'>UObject Avg</th><th id="col_12" title='Animation (SummaryTableMetric)'>Animation Avg</th><th id="col_13" title='Shaders (SummaryTableMetric)'>Shaders Avg</th><th id="col_14" title='FileSystem (SummaryTableMetric)'>FileSystem Avg</th><th id="col_15" title='Physics (SummaryTableMetric)'>Physics Avg</th></tr>
+<tr id="row_0"><td title='Build Version' style='' bgcolor='#eaeaea'>Unknown-CL-0-FlowjoDojo</td><td title='DeviceProfile' style=''>Windows</td><td title='Report' style=''><a href='Unknown-CL-0-FlowjoDojo_Windows_20260212-161914_Windows_APT_Sequence_TestSanJose-Pass0.html'>Link</a></td><td title='../../CSV/Unknown-CL-0-FlowjoDojo_Windows_20260212-161914_Windows_APT_Sequence_TestSanJose-Pass0.csv' style=''><a href='../../CSV/Unknown-CL-0-FlowjoDojo_Windows_20260212-161914_Windows_APT_Sequence_TestSanJose-Pass0.csv'>Unknown-CL-0-FlowjoDojo_Windows_20260212-161914_Windows_APT_Sequence_TestSanJose-Pass0.csv</a></td><td title='Total Avg' bgcolor='#f6fc80' style=''>21174</td><td title='TrackedTotal Avg' bgcolor='#b2e384' style=''>9593</td><td title='Untracked Avg' bgcolor='#ffc075' style=''>11581</td><td title='Textures Avg' bgcolor='#93d886' style=''>4547</td><td title='Audio Avg' style=''>108.5</td><td title='Meshes Avg' bgcolor='#ff6666' style=''>765</td><td title='RenderTargets Avg' bgcolor='#87d387' style=''>365</td><td title='UObject Avg' style=''>264</td><td title='Animation Avg' style=''>53.1</td><td title='Shaders Avg' style=''>545</td><td title='FileSystem Avg' style=''>275</td><td title='Physics Avg' bgcolor='#b8e583' style=''>1449</td></tr>
+<tr id="row_1"><td title='Build Version' style='' bgcolor='#ffffff'>Unknown-CL-0-FlowjoDojo</td><td title='DeviceProfile' style=''>Windows</td><td title='Report' style=''><a href='Unknown-CL-0-FlowjoDojo_Windows_20260212-174308_Windows_APT_Sequence_TestSanJose-Pass0.html'>Link</a></td><td title='../../CSV/Unknown-CL-0-FlowjoDojo_Windows_20260212-174308_Windows_APT_Sequence_TestSanJose-Pass0.csv' style=''><a href='../../CSV/Unknown-CL-0-FlowjoDojo_Windows_20260212-174308_Windows_APT_Sequence_TestSanJose-Pass0.csv'>Unknown-CL-0-FlowjoDojo_Windows_20260212-174308_Windows_APT_Sequence_TestSanJose-Pass0.csv</a></td><td title='Total Avg' bgcolor='#dbf281' style=''>21125</td><td title='TrackedTotal Avg' bgcolor='#f6fb80' style=''>9648</td><td title='Untracked Avg' bgcolor='#c4e983' style=''>11478</td><td title='Textures Avg' bgcolor='#fffa7e' style=''>4590</td><td title='Audio Avg' style=''>108.5</td><td title='Meshes Avg' bgcolor='#8ad486' style=''>743</td><td title='RenderTargets Avg' bgcolor='#e8f680' style=''>386</td><td title='UObject Avg' style=''>264</td><td title='Animation Avg' style=''>53.1</td><td title='Shaders Avg' style=''>545</td><td title='FileSystem Avg' style=''>275</td><td title='Physics Avg' bgcolor='#ffca76' style=''>1463</td></tr>
+<tr id="row_2"><td title='Build Version' style='' bgcolor='#eaeaea'>Unknown-CL-0-FlowjoDojo</td><td title='DeviceProfile' style=''>Windows</td><td title='Report' style=''><a href='Unknown-CL-0-FlowjoDojo_Windows_20260212-210035_Windows_APT_Sequence_TestSanJose-Pass0.html'>Link</a></td><td title='../../CSV/Unknown-CL-0-FlowjoDojo_Windows_20260212-210035_Windows_APT_Sequence_TestSanJose-Pass0.csv' style=''><a href='../../CSV/Unknown-CL-0-FlowjoDojo_Windows_20260212-210035_Windows_APT_Sequence_TestSanJose-Pass0.csv'>Unknown-CL-0-FlowjoDojo_Windows_20260212-210035_Windows_APT_Sequence_TestSanJose-Pass0.csv</a></td><td title='Total Avg' bgcolor='#ffc676' style=''>21266</td><td title='TrackedTotal Avg' bgcolor='#ff916d' style=''>9724</td><td title='Untracked Avg' bgcolor='#fff37d' style=''>11543</td><td title='Textures Avg' bgcolor='#ff7969' style=''>4628</td><td title='Audio Avg' style=''>108.5</td><td title='Meshes Avg' bgcolor='#88d487' style=''>743</td><td title='RenderTargets Avg' bgcolor='#ff6666' style=''>423</td><td title='UObject Avg' style=''>264</td><td title='Animation Avg' style=''>53.1</td><td title='Shaders Avg' style=''>545</td><td title='FileSystem Avg' style=''>275</td><td title='Physics Avg' bgcolor='#ffd979' style=''>1461</td></tr>
+</table>
+<p style='font-size:8'>Created with PerfReportTool 4.253.3</p>
+</body></html>

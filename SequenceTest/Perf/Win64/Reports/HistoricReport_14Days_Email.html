@@ -1,0 +1,65 @@
+<html>
+<head><title>Perf Summary: HistoricReport_14Days</title>
+<script>
+SummaryTableIsTransposed=false;
+var originalStyleElement = null; 
+document.addEventListener('DOMContentLoaded', function(event) { regenerateStickyColumnCss(); }) 
+window.addEventListener('resize', function(event) { regenerateStickyColumnCss(); }) 
+
+function regenerateStickyColumnCss() { 
+  var styleElement=document.getElementById('pageStyle'); 
+  var table=document.getElementById('mainTable'); 
+  if ( table.rows.length < 2 ) 
+	return; 
+  if (originalStyleElement == null) 
+    originalStyleElement = styleElement.textContent; 
+  else 
+    styleElement.textContent = originalStyleElement  
+
+  var numStickyCols=3; 
+  var xOffset=0; 
+  for (var i=0;i<numStickyCols;i++) 
+  { 
+	 var rBorderParam=(i==numStickyCols-1) ? 'border-right: 2px solid black;':''; 
+	 styleElement.textContent+='tr.lastHeaderRow th:nth-child('+(i+1)+') {  z-index: 8;  border-top: 2px solid black;  font-size: 11px; left:'+xOffset+'px;'+rBorderParam+'}'; 
+	 styleElement.textContent+='td:nth-child('+(i+1)+') {  position: -webkit-sticky;  position: sticky; z-index: 7; left:'+xOffset+'px; '+rBorderParam+'}'; 
+	 xOffset+=table.rows[1].cells[i].offsetWidth; 
+  } 
+} 
+
+</script>
+<style type='text/css' id='pageStyle'>
+p {  font-family: 'Verdana', Times, serif; font-size: 12px }
+h3 {  font-family: 'Verdana', Times, serif; font-size: 14px }
+h2 {  font-family: 'Verdana', Times, serif; font-size: 16px }
+h1 {  font-family: 'Verdana', Times, serif; font-size: 20px }
+table {table-layout: fixed;} 
+table, th, td { border: 0px solid black; border-spacing: 0; border-collapse: separate; padding: 4px 4px 4px 4px; vertical-align: center; font-family: 'Verdana', Times, serif; font-size: 10px;} 
+td {  border-right: 1px solid black;  max-width: 450;} 
+td:first-child {  padding-right:10px; padding-left:5px;  padding-top:0px;padding-bottom:0px;} 
+td:not(:first-child) {  text-align: left;} 
+tr:first-element { border-top: 2px; border-bottom: 2px } 
+th {  width: auto;  max-width: 220px;  min-width: 35px;  position: -webkit-sticky;  position: sticky;  border-right: 1px solid black;  border-top: 2px solid black;  z-index: 5;  background-color: #ffffff;  top:0;  font-size: 9px;  word-wrap: break-word;  overflow: hidden;  height: 60;} 
+span.greyText {  color: #808080;  display: inline-block;} 
+span.blackText {  color: #000000;  display: inline-block;} 
+tr:first-child th:first-child { z-index: 100;  border-right: 2px solid black; border-top: 2px solid black; font-size: 11px; top:0; left: 0px; } 
+th:first-child, td:first-child { border-left: 2px solid black; white-space: nowrap; max-width:800px;} 
+tr.lastHeaderRow th { top:60px; height:20px; } 
+tr:last-child td{border-bottom: 2px solid black;} 
+tr:nth-child(odd) {background-color: #eaeaea;} 
+tr:nth-child(even) {background-color: #ffffff;} 
+tr:first-child {background-color: #ffffff;} 
+tr.lastHeaderRow th { border-bottom: 2px solid black; } 
+tr.sectionStartLevel0 td { border-top: 2px solid black; } 
+tr.sectionStartLevel1 td { border-top: 1px solid black; } 
+tr.sectionStartLevel2 td { border-top: 1px dashed black; } 
+
+</style>
+</head><body>
+<table id='mainTable'>
+<tr id="headerRow_0"><th id="topCol_0" colspan='3'><h3>HistoricReport_14Days</h3></th><th id="topCol_1" colspan='3' title='pgoenabled (CsvMetadata)'>PGO</th><th id="topCol_2" title='config (CsvMetadata)'>Config</th><th id="topCol_3" title='testname (CsvMetadata)'>Test Name</th><th id="topCol_4" colspan='3' title='TargetFPS (SummaryTableMetric)'>FPS</th><th id="topCol_5" colspan='3' title='MVP (SummaryTableMetric)'>MVP</th><th id="topCol_6" colspan='3' title='Hitches/Min (SummaryTableMetric)'>Hitches/<wbr>Min</th><th id="topCol_7" colspan='3' title='HitchTimePercent (SummaryTableMetric)'>HitchTime %</th><th id="topCol_8" colspan='3' title='Frametime (SummaryTableMetric)'>Frametime Avg</th><th id="topCol_9" colspan='3' title='GameThreadtime (SummaryTableMetric)'>GameThreadtime Avg</th><th id="topCol_10" colspan='3' title='RenderThreadtime (SummaryTableMetric)'>RenderThreadtime Avg</th><th id="topCol_11" colspan='3' title='RHIThreadTime (SummaryTableMetric)'>RHIThreadTime Avg</th><th id="topCol_12" colspan='3' title='GPUtime (SummaryTableMetric)'>GPUtime Avg</th><th id="topCol_13" colspan='3' title='MemoryFreeMB (SummaryTableMetric)'>MemFreeMB Min</th><th id="topCol_14" colspan='3' title='PhysicalUsedMB (SummaryTableMetric)'>MemUsedMB Max</th><th id="topCol_15" colspan='3' title='extradevelopmentmemorymb (CsvMetadata)'>Extra dev memory (MB)</th><th id="topCol_16" colspan='3' title='Total Time (s) (SummaryTableMetric)'>Total Time (s)</th><th id="topCol_17" colspan='3' title='RHI/Drawcalls (SummaryTableMetric)'>DrawCalls Avg</th><th id="topCol_18" colspan='3' title='Basic/TicksQueued (SummaryTableMetric)'>TicksQueued Avg</th><th id="topCol_19" colspan='3' title='framecount (ToolMetadata)'>framecount</th></tr>
+<tr id="headerRow_1"  class='lastHeaderRow'><th id="col_0" title='buildversion (CsvMetadata)'>Build Version</th><th id="col_1" title='deviceprofile (CsvMetadata)'>DeviceProfile</th><th id="col_2" title='Count (ToolMetadata)'>Count</th><th id="col_3">Avg</th><th id="col_4">Min</th><th id="col_5">Max</th><th id="col_6">-</th><th id="col_7">-</th><th id="col_8">Avg</th><th id="col_9">Min</th><th id="col_10">Max</th><th id="col_11">Avg</th><th id="col_12">Min</th><th id="col_13">Max</th><th id="col_14">Avg</th><th id="col_15">Min</th><th id="col_16">Max</th><th id="col_17">Avg</th><th id="col_18">Min</th><th id="col_19">Max</th><th id="col_20">Avg</th><th id="col_21">Min</th><th id="col_22">Max</th><th id="col_23">Avg</th><th id="col_24">Min</th><th id="col_25">Max</th><th id="col_26">Avg</th><th id="col_27">Min</th><th id="col_28">Max</th><th id="col_29">Avg</th><th id="col_30">Min</th><th id="col_31">Max</th><th id="col_32">Avg</th><th id="col_33">Min</th><th id="col_34">Max</th><th id="col_35">Avg</th><th id="col_36">Min</th><th id="col_37">Max</th><th id="col_38">Avg</th><th id="col_39">Min</th><th id="col_40">Max</th><th id="col_41">Avg</th><th id="col_42">Min</th><th id="col_43">Max</th><th id="col_44">Avg</th><th id="col_45">Min</th><th id="col_46">Max</th><th id="col_47">Avg</th><th id="col_48">Min</th><th id="col_49">Max</th><th id="col_50">Avg</th><th id="col_51">Min</th><th id="col_52">Max</th><th id="col_53">Avg</th><th id="col_54">Min</th><th id="col_55">Max</th></tr>
+<tr id="row_0"><td style='' bgcolor='#eaeaea'>Unknown-CL-0-FlowjoDojo</td><td style='' bgcolor='#eaeaea'>Windows</td><td style='' bgcolor='#eaeaea'>4</td><td style=''>0</td><td style=''>0</td><td style=''>0</td><td style=''>Test</td><td style=''>FlowjoDojo</td><td style=''>60</td><td style=''>60</td><td style=''>60</td><td bgcolor='#ff6666' style=''>17.21</td><td bgcolor='#87d387' style=''>0</td><td bgcolor='#ff6666' style=''>68.9</td><td bgcolor='#ff6666' style=''>35.96</td><td bgcolor='#87d387' style=''>0</td><td bgcolor='#ff6666' style=''>99.5</td><td bgcolor='#ff6666' style=''>14.69</td><td bgcolor='#87d387' style=''>0</td><td bgcolor='#ff6666' style=''>58.6</td><td bgcolor='#ff6666' style=''>24.29</td><td bgcolor='#87d387' style=''>13.61</td><td bgcolor='#ff6666' style=''>54.3</td><td bgcolor='#87d387' style=''>14.08</td><td bgcolor='#87d387' style=''>8.59</td><td bgcolor='#ff6666' style=''>30.45</td><td bgcolor='#87d387' style=''>6.57</td><td bgcolor='#87d387' style=''>6.26</td><td bgcolor='#87d387' style=''>7.10</td><td bgcolor='#87d387' style=''>12.19</td><td bgcolor='#87d387' style=''>7.49</td><td bgcolor='#ff6666' style=''>25.16</td><td bgcolor='#87d387' style=''>11.23</td><td bgcolor='#87d387' style=''>10.14</td><td bgcolor='#87d387' style=''>12.23</td><td bgcolor='#87d387' style=''>40523</td><td bgcolor='#87d387' style=''>36713</td><td bgcolor='#87d387' style=''>45252</td><td style=''>8170</td><td style=''>8129</td><td style=''>8223</td><td style=''>0</td><td style=''>0</td><td style=''>0</td><td bgcolor='#ffffff' style=''>2.16</td><td bgcolor='#ffffff' style=''>1.21</td><td bgcolor='#ffffff' style=''>4.82</td><td style=''>4063</td><td style=''>3877</td><td style=''>4174</td><td bgcolor='#ff6666' style=''>923</td><td bgcolor='#ff6666' style=''>913</td><td bgcolor='#ff6666' style=''>931</td><td style=''>90</td><td style=''>90</td><td style=''>90</td></tr>
+</table>
+<p style='font-size:8'>Created with PerfReportTool 4.253.3</p>
+</body></html>
