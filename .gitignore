@@ -1,0 +1,3 @@
+# Official Automated Perf Testing folders, ignore as we are doing our own
+/SequenceTest/
+/StaticCameraTest/
