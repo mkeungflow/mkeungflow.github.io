@@ -1,0 +1,474 @@
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+[2026.03.05-00.06.31:420][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2026.03.05-00.06.31:420][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2026.03.05-00.06.33:758][  0]LogStreamlineAPI: [16-06-33][streamline][info][tid:79192][2s:313ms:560us]commonEntry.cpp:1059[ngxLog]  error: no matching adapter found
+[2026.03.05-00.06.33:760][  0]LogStreamlineD3D12RHI: Registering FStreamlineD3D12DXGISwapchainProvider as IDXGISwapchainProvider, due to a supported feature needing a swap chain provider: (kFeatureDLSS_G, Result::eOk),(kFeatureLatewarp, Result::eErrorFeatureMissing),(kFeatureImGUI, Result::eErrorFeatureMissing). This can be overriden with -sl{no}swapchainprovider
+[2026.03.05-00.06.36:438][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_128x.png' error.
+[2026.03.05-00.06.36:438][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Platforms/VisionOS/Content/Editor/Slate/Launcher/Platform_VisionOS_24x.png' error.
+[2026.03.05-00.06.37:315][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/Common/ButtonHoverHint.png' error.
+[2026.03.05-00.06.37:315][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Slate/./Editor/Slate/Icons/doc_16x.png' error.
+[2026.03.05-00.06.37:518][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Images/NamespaceBorder.png' error.
+[2026.03.05-00.06.37:905][  0]LogStreaming: Warning: Failed to read file '../../../../../../UnrealEngine/FlowjoDojo/Saved/Config/GenAI/secureconfig.bin' error.
+[2026.03.05-00.06.38:138][  0]LogClass: Error: StructProperty FParcelEntry::Bounds is not initialized properly. Module:FlowParcels File:Public/ChunkActor.h
+[2026.03.05-00.06.38:138][  0]LogClass: Error: StructProperty FParcelPolygon::Bounds is not initialized properly. Module:FlowParcels File:Public/ParcelData.h
+[2026.03.05-00.06.38:138][  0]LogClass: Error: StructProperty FParcelData::Bounds is not initialized properly. Module:FlowParcels File:Public/ParcelData.h
+[2026.03.05-00.06.38:138][  0]LogClass: Error: StructProperty FParcelLookup::ChunkOrigin is not initialized properly. Module:FlowParcels File:Public/ParcelManager.h
+[2026.03.05-00.06.38:154][  0]LogWwiseProjectDatabase: Verbose: An Expected Error
+[2026.03.05-00.06.38:154][  0]LogWwiseProjectDatabase: Verbose: Multiple Errors
+[2026.03.05-00.06.38:154][  0]LogWwiseProjectDatabase: Verbose: Multiple Errors
+[2026.03.05-00.06.38:154][  0]LogWwiseProjectDatabase: Verbose: Error while decoding json
+[2026.03.05-00.06.38:158][  0]LogAutomationTest: Error: LogClass: StructProperty FParcelEntry::Bounds is not initialized properly. Module:FlowParcels File:Public/ChunkActor.h
+[2026.03.05-00.06.38:158][  0]LogAutomationTest: Error: LogClass: StructProperty FParcelPolygon::Bounds is not initialized properly. Module:FlowParcels File:Public/ParcelData.h
+[2026.03.05-00.06.38:158][  0]LogAutomationTest: Error: LogClass: StructProperty FParcelData::Bounds is not initialized properly. Module:FlowParcels File:Public/ParcelData.h
+[2026.03.05-00.06.38:158][  0]LogAutomationTest: Error: LogClass: StructProperty FParcelLookup::ChunkOrigin is not initialized properly. Module:FlowParcels File:Public/ParcelManager.h
+[2026.03.05-00.06.42:608][  0]LogWindows: Failed to load 'amfrt64.dll' (GetLastError=126)
+[2026.03.05-00.06.42:659][  0]LogStreamlineRHI: SLisFeatureSupported(kFeatureImGUI) -> (31, Result::eErrorFeatureMissing)
+[2026.03.05-00.07.00:929][  0]Model View Viewmodel: Error: The binding 'Binding: Txt_KeyName_Rebind.Text = FlowAtlasKeyboardControlsViewModel.FocusedKeyDataBusToRemap.PlayerKeyMapping.DisplayName' was not executed. Invalid Source. BindingsAndControls
+[2026.03.05-00.07.00:929][  0]Model View Viewmodel: Error: The binding 'Binding: IKS_CurrentKey_Rebind.SelectedKey = Convert_KeyToInputChord ( FlowAtlasKeyboardControlsViewModel.FocusedKeyDataBusToRemap.PlayerKeyMapping.CurrentKey )' was not executed. Invalid Source. BindingsAndControls
+[2026.03.05-00.07.11:316][  0]LogAnnotationToolSubsystem: Error: [Annotation Tool - Events] New Map Loaded: LV_GameEntry.
+[2026.03.05-00.07.29:121][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.24:101][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.27:779][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.28:976][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.28:976][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.29:014][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.29:014][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.29:748][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.29:749][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.29:749][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:093][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:101][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:120][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:123][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:139][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:143][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:151][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:159][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:159][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:160][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:161][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:174][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:175][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:184][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:290][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:305][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.31:892][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.32:375][  0]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.08.34:279][  0]Model View Viewmodel: Error: The binding 'Binding: Txt_KeyName_Rebind.Text = FlowAtlasKeyboardControlsViewModel.FocusedKeyDataBusToRemap.PlayerKeyMapping.DisplayName' was not executed. Invalid Source. BindingsAndControls
+[2026.03.05-00.08.34:279][  0]Model View Viewmodel: Error: The binding 'Binding: IKS_CurrentKey_Rebind.SelectedKey = Convert_KeyToInputChord ( FlowAtlasKeyboardControlsViewModel.FocusedKeyDataBusToRemap.PlayerKeyMapping.CurrentKey )' was not executed. Invalid Source. BindingsAndControls
+[2026.03.05-00.08.34:338][  0]LogAnnotationToolSubsystem: Error: [Annotation Tool - Events] New Map Loaded: LV_Riyadh.
+[2026.03.05-00.08.34:615][  0]LoadErrors: Warning: While trying to load package /Game/Core/TopDown, a dependent package /Game/Core/image2 was not available. Additional explanatory information follows:
+[2026.03.05-00.08.34:616][  0]LoadErrors: Warning: While trying to load package /Game/Core/TopDown, a dependent package /Game/Core/image2 was not available. Additional explanatory information follows:
+[2026.03.05-00.08.34:616][  0]LoadErrors: Warning: While trying to load package /Game/MataGardenCity/Maps/Instances/Tamkin/Levels/BPP_PLA_Tamkin_Level_0_Props, a dependent package /FlowAssetLibrary/Art/Foliage/Latania/Materials/MI_Latania_Bark_3 was not available. Additional explanatory information follows:
+[2026.03.05-00.08.34:616][  0]LoadErrors: Warning: While trying to load package /Game/MataGardenCity/Maps/Instances/Tamkin/Levels/BPP_PLA_Tamkin_Level_0_Props, a dependent package /FlowAssetLibrary/Art/Foliage/Latania/Materials/MI_Latania_Bark_4 was not available. Additional explanatory information follows:
+[2026.03.05-00.08.34:616][  0]LoadErrors: Warning: While trying to load package /Game/MataGardenCity/Maps/Instances/Tamkin/Levels/BPP_PLA_Tamkin_Level_0_Props, a dependent package /FlowAssetLibrary/Art/Foliage/Latania/Materials/MI_Latania_Sabal_Seedling1 was not available. Additional explanatory information follows:
+[2026.03.05-00.08.34:616][  0]LoadErrors: Warning: While trying to load package /Game/Developers/Alex/Olaya/SM_SpeakerHoles_Olaya, a dependent package /Game/Art/MaterialLibrary/Wood/MI_Wood_01_Triplanar_Vertical_04 was not available. Additional explanatory information follows:
+[2026.03.05-00.08.35:996][  3]LogRHI: Error: QueryStatistics failed for the current process use of GPU0
+[2026.03.05-00.08.36:379][  4]LogAIAgent: Warning: WebSocket Connection Error: 
+[2026.03.05-00.08.43:429][302]LogAIAgent: Warning: WebSocket Connection Error: 
+[2026.03.05-00.08.50:472][840]LogAIAgent: Warning: WebSocket Connection Error: 
+[2026.03.05-00.08.57:539][423]LogAIAgent: Warning: WebSocket Connection Error: socket connect failed
+[2026.03.05-00.09.04:594][ 91]LogAIAgent: Warning: WebSocket Connection Error: 
+[2026.03.05-00.09.09:136][475]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.09.11:654][694]LogAIAgent: Warning: WebSocket Connection Error: 
+[2026.03.05-00.09.18:728][338]LogAIAgent: Warning: WebSocket Connection Error: socket connect failed
+[2026.03.05-00.09.25:779][867]LogAIAgent: Warning: WebSocket Connection Error: socket connect failed
+[2026.03.05-00.09.32:828][381]LogAIAgent: Warning: WebSocket Connection Error: 
+[2026.03.05-00.09.39:890][865]LogAIAgent: Warning: WebSocket Connection Error: 
+[2026.03.05-00.09.46:939][331]LogAIAgent: Warning: WebSocket Connection Error: 
+[2026.03.05-00.09.46:939][331]LogAIAgent: Error: Max reconnect attempts reached. Giving up.
+[2026.03.05-00.10.19:397][138]LogStateTree: Error: UStateTreeComponentSchema::SetContextData: Could not find context actor of type BP_DeliveryRobot_Pawn_C. StateTree will not update.
+[2026.03.05-00.10.19:397][138]LogStateTree: Error: UStateTreeComponentSchema::SetContextRequirements: Missing external data requirements. StateTree will not update.
+[2026.03.05-00.10.41:022][138]LogBlueprint: Error: [AssetLog] f:\UnrealEngine\FlowjoDojo\Content\UltraDynamicSky\Blueprints\System\Editor_UI\ToolBarMenu\UDS_Toolbar_Utility_Button.uasset: [Compiler] Editor Subsystems can only be used in Editor Utilities / Blutilities
+[2026.03.05-00.10.41:032][138]LogBlueprint: Error: [AssetLog] f:\UnrealEngine\FlowjoDojo\Content\UltraDynamicSky\Blueprints\System\Editor_UI\UDS_Editor_Tick_Handler.uasset: [Compiler] Editor Subsystems can only be used in Editor Utilities / Blutilities
+[2026.03.05-00.10.41:034][138]LogBlueprint: Error: [AssetLog] f:\UnrealEngine\FlowjoDojo\Content\UltraDynamicSky\Blueprints\System\Editor_UI\UDS_Editor_Tick_Handler.uasset: [Compiler] Editor Subsystems can only be used in Editor Utilities / Blutilities
+[2026.03.05-00.10.41:149][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.11.55:170][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.11.59:027][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.11.59:070][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.11.59:087][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.11.59:088][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.11.59:089][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.00:562][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.01:454][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.01:539][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.06:372][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.08:312][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.10:404][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.10:405][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.10:408][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.10:409][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.10:411][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.10:413][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.11:464][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.11:464][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.11:467][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.11:467][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.11:468][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.11:468][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.11:468][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.11:468][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:027][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:125][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:164][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:170][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:175][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:179][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:185][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:829][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:830][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:830][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:831][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:831][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:833][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:833][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:834][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:834][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:880][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:894][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.13:897][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.23:818][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.23:820][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.23:823][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.23:824][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.23:824][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.23:866][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.23:877][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.23:884][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.23:886][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.23:890][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.23:902][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.23:937][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.24:209][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.30:134][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.30:138][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.41:196][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.41:198][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.41:255][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.41:258][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.12.41:260][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.02:329][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.02:339][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.02:345][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.02:348][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.02:354][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.03:155][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.03:287][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.03:290][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.07:544][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.11:940][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.11:945][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.12:120][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.16:348][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.16:407][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.16:409][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.16:413][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.16:419][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.16:433][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.16:454][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.16:540][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.16:554][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.16:575][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.16:575][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.16:818][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.16:828][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.16:837][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:004][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:082][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:106][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:129][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:153][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:161][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:181][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:202][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:208][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:214][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:219][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:226][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:231][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:237][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:243][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:248][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:253][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:259][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:265][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:270][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:275][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:281][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:286][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:292][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:298][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:303][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:308][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:314][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:320][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:325][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:331][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:337][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:342][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:348][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:353][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:359][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:460][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:600][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:685][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:774][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.17:861][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.18:519][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.18:629][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.18:743][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.18:858][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.18:972][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.19:087][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.19:202][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.19:323][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.19:433][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.19:544][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.19:659][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.19:776][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.19:886][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.19:996][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.20:108][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.20:222][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.20:334][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.20:444][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.20:555][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.20:671][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.20:789][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.20:899][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.21:010][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.21:114][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.21:226][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.21:342][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.21:428][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.21:542][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.21:656][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.21:773][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.21:889][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:009][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:177][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:218][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:256][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:277][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:314][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:342][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:371][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:400][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:430][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:455][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:480][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:509][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:539][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:569][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:593][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:617][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:638][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:658][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:677][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:696][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:717][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:737][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:759][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:780][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:800][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:821][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:842][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:863][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:883][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:904][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:924][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:943][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:963][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.22:983][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:002][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:022][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:041][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:061][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:080][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:101][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:122][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:143][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:165][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:184][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:271][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:347][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:425][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:509][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:587][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:666][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:666][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:674][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:674][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:754][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:783][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:783][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:847][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:936][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:948][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:948][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.23:948][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.29:015][138]LogNiagaraEditor: Error compiling input for set node. - Node: Map Set Pin: Source - 
+[2026.03.05-00.13.29:015][138]LogNiagaraEditor: Error compiling input for param map get node. - Node: Map Get Pin: Source - 
+[2026.03.05-00.13.29:015][138]LogNiagaraEditor: Error compiling input for set node. - Node: Map Set Pin: InitializeMetaData.CrowdDataTex - 
+[2026.03.05-00.13.29:016][138]LogNiagaraEditor: Error compiling Pin - Node: Output Particle Spawn Pin: Out - 
+[2026.03.05-00.13.29:016][138]LogNiagaraEditor: Error compiling input on Logic AND node. - Node: Logic AND Pin: A - 
+[2026.03.05-00.13.29:016][138]LogNiagaraEditor: Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+[2026.03.05-00.13.29:016][138]LogNiagaraEditor: Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+[2026.03.05-00.13.29:016][138]LogNiagaraEditor: Error compiling input on Multiply node. - Node: Multiply Pin: A - 
+[2026.03.05-00.13.29:016][138]LogNiagaraEditor: Error compiling Pin - Node: Output Function Pin: DistanceFieldIsValid - 
+[2026.03.05-00.13.29:016][138]LogNiagaraEditor: Error compiling Pin - Node: Output Function Pin: DistanceToSurface - 
+[2026.03.05-00.13.29:016][138]LogNiagaraEditor: Error compiling input on Logic AND node. - Node: Logic AND Pin: A - 
+[2026.03.05-00.13.29:016][138]LogNiagaraEditor: Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+[2026.03.05-00.13.29:016][138]LogNiagaraEditor: Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+[2026.03.05-00.13.29:016][138]LogNiagaraEditor: Error compiling input on Multiply node. - Node: Multiply Pin: A - 
+[2026.03.05-00.13.29:016][138]LogNiagaraEditor: Error compiling Pin - Node: Output Function Pin: DistanceFieldIsValid - 
+[2026.03.05-00.13.29:016][138]LogNiagaraEditor: Error compiling Pin - Node: Output Function Pin: DistanceToSurface - 
+[2026.03.05-00.13.40:074][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.40:076][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.40:077][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.40:084][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.40:087][138]LogFastGeoStreaming: Error: FastGeoStreaming Cell Transformer requires 'p.Chaos.EnableAsyncInitBody' to be enabled.
+[2026.03.05-00.13.40:225][138]Model View Viewmodel: Error: The binding 'Binding: Txt_KeyName_Rebind.Text = FlowAtlasKeyboardControlsViewModel.FocusedKeyDataBusToRemap.PlayerKeyMapping.DisplayName' was not executed. Invalid Source. BindingsAndControls
+[2026.03.05-00.13.40:225][138]Model View Viewmodel: Error: The binding 'Binding: IKS_CurrentKey_Rebind.SelectedKey = Convert_KeyToInputChord ( FlowAtlasKeyboardControlsViewModel.FocusedKeyDataBusToRemap.PlayerKeyMapping.CurrentKey )' was not executed. Invalid Source. BindingsAndControls
+Error compiling input for set node. - Node: Map Set Pin: Source - 
+Error compiling input for param map get node. - Node: Map Get Pin: Source - 
+Error compiling input for set node. - Node: Map Set Pin: InitializeMetaData.CrowdDataTex - 
+Error compiling Pin - Node: Output Particle Spawn Pin: Out - 
+Error compiling input on Logic AND node. - Node: Logic AND Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Multiply node. - Node: Multiply Pin: A - 
+Error compiling Pin - Node: Output Function Pin: DistanceFieldIsValid - 
+Error compiling Pin - Node: Output Function Pin: DistanceToSurface - 
+Error compiling input on Logic AND node. - Node: Logic AND Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Multiply node. - Node: Multiply Pin: A - 
+Error compiling Pin - Node: Output Function Pin: DistanceFieldIsValid - 
+Error compiling Pin - Node: Output Function Pin: DistanceToSurface - 
+Error compiling input on Logic AND node. - Node: Logic AND Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Multiply node. - Node: Multiply Pin: A - 
+Error compiling Pin - Node: Output Function Pin: DistanceFieldIsValid - 
+Error compiling Pin - Node: Output Function Pin: DistanceToSurface - 
+Error compiling input on Logic AND node. - Node: Logic AND Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Multiply node. - Node: Multiply Pin: A - 
+Error compiling Pin - Node: Output Function Pin: DistanceFieldIsValid - 
+Error compiling Pin - Node: Output Function Pin: DistanceToSurface - 
+Error compiling input for set node. - Node: Map Set Pin: Source - 
+Error compiling input for param map get node. - Node: Map Get Pin: Source - 
+Error compiling input for set node. - Node: Map Set Pin: InitializeMetaData.CrowdDataTex - 
+Error compiling Pin - Node: Output Particle Spawn Pin: Out - 
+Error compiling input on Logic AND node. - Node: Logic AND Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Multiply node. - Node: Multiply Pin: A - 
+Error compiling Pin - Node: Output Function Pin: DistanceFieldIsValid - 
+Error compiling Pin - Node: Output Function Pin: DistanceToSurface - 
+Error compiling input on Logic AND node. - Node: Logic AND Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Multiply node. - Node: Multiply Pin: A - 
+Error compiling Pin - Node: Output Function Pin: DistanceFieldIsValid - 
+Error compiling Pin - Node: Output Function Pin: DistanceToSurface - 
+Error compiling input for set node. - Node: Map Set Pin: Source - 
+Error compiling input for param map get node. - Node: Map Get Pin: Source - 
+Error compiling input for set node. - Node: Map Set Pin: InitializeMetaData.CrowdDataTex - 
+Error compiling Pin - Node: Output Particle Spawn Pin: Out - 
+Error compiling input on Logic AND node. - Node: Logic AND Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Multiply node. - Node: Multiply Pin: A - 
+Error compiling Pin - Node: Output Function Pin: DistanceFieldIsValid - 
+Error compiling Pin - Node: Output Function Pin: DistanceToSurface - 
+Error compiling input on Logic AND node. - Node: Logic AND Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Less Than node. - Node: Less Than Pin: A - 
+Error compiling input on Multiply node. - Node: Multiply Pin: A - 
+Error compiling Pin - Node: Output Function Pin: DistanceFieldIsValid - 
+Error compiling Pin - Node: Output Function Pin: DistanceToSurface - 
+[2026.03.05-00.13.41:547][138]LogAnnotationToolSubsystem: Error: [Annotation Tool - Events] New Map Loaded: LV_MiamiDemo.
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: === Handled ensure: ===
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: 
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: Ensure condition failed: UE::Private::FMTAccessDetectorOptions::bSuppressCheckFailure  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Misc\MTAccessDetector.h] [Line: 624] 
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: Either a race detected (983151 reader(s) on another thread(s) while acquiring write access on the current thread) or the access detector was trivially relocated:
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: Current thread 79192 callstack:
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff993232897 UnrealEditor-Renderer.dll!FMRSWRecursiveAccessDetector::GetCurrentThreadCallstack() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Misc\MTAccessDetector.h:413]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff99468f569 UnrealEditor-Renderer.dll!`FMRSWRecursiveAccessDetector::AcquireWriteAccess'::`8'::<lambda_2>::operator()() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Misc\MTAccessDetector.h:624]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff9932200b5 UnrealEditor-Renderer.dll!FMRSWRecursiveAccessDetector::AcquireWriteAccess() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Misc\MTAccessDetector.h:628]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff99323bc87 UnrealEditor-Renderer.dll!TDelegateAccessHandlerBase<FNotThreadSafeDelegateMode>::GetWriteAccessScope() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateAccessHandler.h:169]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff993ca833b UnrealEditor-Renderer.dll!TMulticastDelegateRegistration<void __cdecl(UCurveBase *,unsigned int),FDefaultDelegateUserPolicy>::Remove() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl:1008]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff993ca8940 UnrealEditor-Renderer.dll!FSceneViewState::SetExposureCompensationCurve() [D:\build\++UE5\Sync\Engine\Source\Runtime\Renderer\Private\PostProcess\PostProcessEyeAdaptation.cpp:729]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff99e7125ee UnrealEditor-Engine.dll!FSceneView::EndFinalPostprocessSettings() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\SceneView.cpp:2375]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff99de0a204 UnrealEditor-Engine.dll!ULocalPlayer::CalcSceneView() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\LocalPlayer.cpp:989]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff99daee90a UnrealEditor-Engine.dll!UGameViewportClient::Draw() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\GameViewportClient.cpp:1687]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff99ecf19e5 UnrealEditor-Engine.dll!FViewport::Draw() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\UnrealClient.cpp:1798]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff99da9454c UnrealEditor-Engine.dll!UGameEngine::RedrawViewports() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\GameEngine.cpp:789]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff99f1b966b UnrealEditor-Engine.dll!UEngine::LoadMap() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp:16294]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff99f17141b UnrealEditor-Engine.dll!UEngine::Browse() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp:15420]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff99f1cf1bc UnrealEditor-Engine.dll!UEngine::TickWorldTravel() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp:15618]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff99daa4344 UnrealEditor-Engine.dll!UGameEngine::Tick() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\GameEngine.cpp:1872]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff705034da6 UnrealEditor.exe!FEngineLoop::Tick() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:5828]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff705050bfe UnrealEditor.exe!GuardedMain() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Launch.cpp:190]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff705050d0a UnrealEditor.exe!GuardedMainWrapper() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:123]
+[2026.03.05-00.13.42:738][138]LogOutputDevice: Error: [Callstack] 0x00007ff705054590 UnrealEditor.exe!LaunchWindowsStartup() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:277]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff705065be4 UnrealEditor.exe!WinMain() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:334]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff705068f9a UnrealEditor.exe!__scrt_common_main_seh() [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ffab96fe8d7 KERNEL32.DLL!UnknownFunction []
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ffabad0c40c ntdll.dll!UnknownFunction []
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: 
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: Stack: 
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff99468f5b4 UnrealEditor-Renderer.dll!`FMRSWRecursiveAccessDetector::AcquireWriteAccess'::`8'::<lambda_2>::operator()() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Misc\MTAccessDetector.h:624]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff9932200b5 UnrealEditor-Renderer.dll!FMRSWRecursiveAccessDetector::AcquireWriteAccess() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Misc\MTAccessDetector.h:628]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff99323bc87 UnrealEditor-Renderer.dll!TDelegateAccessHandlerBase<FNotThreadSafeDelegateMode>::GetWriteAccessScope() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateAccessHandler.h:169]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff993ca833b UnrealEditor-Renderer.dll!TMulticastDelegateRegistration<void __cdecl(UCurveBase *,unsigned int),FDefaultDelegateUserPolicy>::Remove() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl:1008]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff993ca8940 UnrealEditor-Renderer.dll!FSceneViewState::SetExposureCompensationCurve() [D:\build\++UE5\Sync\Engine\Source\Runtime\Renderer\Private\PostProcess\PostProcessEyeAdaptation.cpp:729]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff99e7125ee UnrealEditor-Engine.dll!FSceneView::EndFinalPostprocessSettings() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\SceneView.cpp:2375]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff99de0a204 UnrealEditor-Engine.dll!ULocalPlayer::CalcSceneView() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\LocalPlayer.cpp:989]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff99daee90a UnrealEditor-Engine.dll!UGameViewportClient::Draw() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\GameViewportClient.cpp:1687]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff99ecf19e5 UnrealEditor-Engine.dll!FViewport::Draw() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\UnrealClient.cpp:1798]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff99da9454c UnrealEditor-Engine.dll!UGameEngine::RedrawViewports() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\GameEngine.cpp:789]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff99f1b966b UnrealEditor-Engine.dll!UEngine::LoadMap() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp:16294]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff99f17141b UnrealEditor-Engine.dll!UEngine::Browse() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp:15420]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff99f1cf1bc UnrealEditor-Engine.dll!UEngine::TickWorldTravel() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp:15618]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff99daa4344 UnrealEditor-Engine.dll!UGameEngine::Tick() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\GameEngine.cpp:1872]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff705034da6 UnrealEditor.exe!FEngineLoop::Tick() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:5828]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff705050bfe UnrealEditor.exe!GuardedMain() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Launch.cpp:190]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff705050d0a UnrealEditor.exe!GuardedMainWrapper() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:123]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff705054590 UnrealEditor.exe!LaunchWindowsStartup() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:277]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff705065be4 UnrealEditor.exe!WinMain() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:334]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ff705068f9a UnrealEditor.exe!__scrt_common_main_seh() [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ffab96fe8d7 KERNEL32.DLL!UnknownFunction []
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: [Callstack] 0x00007ffabad0c40c ntdll.dll!UnknownFunction []
+[2026.03.05-00.13.42:739][138]LogOutputDevice: Error: 
+[2026.03.05-00.13.42:740][138]LogStats:                SubmitErrorReport -  0.000 s
+[2026.03.05-00.13.51:063][138]LogWindows: Error: === Critical error: ===
+[2026.03.05-00.13.51:063][138]LogWindows: Error: 
+[2026.03.05-00.13.51:063][138]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0xffffffffffffffff
+[2026.03.05-00.13.51:063][138]LogWindows: Error: 
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff993ca83a1 UnrealEditor-Renderer.dll!TMulticastDelegateRegistration<void __cdecl(UCurveBase *,unsigned int),FDefaultDelegateUserPolicy>::Remove() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Delegates\DelegateSignatureImpl.inl:1008]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff993ca8940 UnrealEditor-Renderer.dll!FSceneViewState::SetExposureCompensationCurve() [D:\build\++UE5\Sync\Engine\Source\Runtime\Renderer\Private\PostProcess\PostProcessEyeAdaptation.cpp:729]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff99e7125ee UnrealEditor-Engine.dll!FSceneView::EndFinalPostprocessSettings() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\SceneView.cpp:2375]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff99de0a204 UnrealEditor-Engine.dll!ULocalPlayer::CalcSceneView() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\LocalPlayer.cpp:989]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff99daee90a UnrealEditor-Engine.dll!UGameViewportClient::Draw() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\GameViewportClient.cpp:1687]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff99ecf19e5 UnrealEditor-Engine.dll!FViewport::Draw() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\UnrealClient.cpp:1798]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff99da9454c UnrealEditor-Engine.dll!UGameEngine::RedrawViewports() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\GameEngine.cpp:789]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff99f1b966b UnrealEditor-Engine.dll!UEngine::LoadMap() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp:16294]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff99f17141b UnrealEditor-Engine.dll!UEngine::Browse() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp:15420]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff99f1cf1bc UnrealEditor-Engine.dll!UEngine::TickWorldTravel() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\UnrealEngine.cpp:15618]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff99daa4344 UnrealEditor-Engine.dll!UGameEngine::Tick() [D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\GameEngine.cpp:1872]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff705034da6 UnrealEditor.exe!FEngineLoop::Tick() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\LaunchEngineLoop.cpp:5828]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff705050bfe UnrealEditor.exe!GuardedMain() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Launch.cpp:190]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff705050d0a UnrealEditor.exe!GuardedMainWrapper() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:123]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff705054590 UnrealEditor.exe!LaunchWindowsStartup() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:277]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff705065be4 UnrealEditor.exe!WinMain() [D:\build\++UE5\Sync\Engine\Source\Runtime\Launch\Private\Windows\LaunchWindows.cpp:334]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ff705068f9a UnrealEditor.exe!__scrt_common_main_seh() [D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288]
+[2026.03.05-00.13.51:063][138]LogWindows: Error: [Callstack] 0x00007ffab96fe8d7 KERNEL32.DLL!UnknownFunction []
+[2026.03.05-00.13.51:063][138]LogWindows: Error: 
+[2026.03.05-00.13.51:072][138]LogExit: Executing StaticShutdownAfterError
